@@ -3,64 +3,43 @@ This project utilizes a Machine Learning model to predict whether an individual 
 
 Features
 
-Accepts ratings (1-5) for multiple employability factors.
-
-Utilizes a Logistic Regression model for reliable predictions.
-
-Provides a user-friendly Gradio interface.
-
-Easily deployable on Hugging Face Spaces.
+* Accepts ratings (1-5) for multiple employability factors.
+* Utilizes a Logistic Regression model for reliable predictions.
+* Provides a user-friendly Gradio interface.
+* Easily deployable on Hugging Face Spaces.
 
 How It Works
 
-Enter ratings (1-5) for various attributes such as communication skills, confidence, and mental alertness.
-
-Click "Submit" to receive an employability prediction.
-
-The result will be displayed as:
-
-"Employable" (if you meet the criteria).
-
-"Less Employable" (if improvements are needed).
+1.Enter ratings (1-5) for various attributes such as communication skills, confidence, and mental alertness.
+2.Click "Submit" to receive an employability prediction.
+3.The result will be displayed as:
+    "Employable" (if you meet the criteria).
+    "Less Employable" (if improvements are needed).
 
 Deployment on Hugging Face Spaces
 
 To deploy this project on Hugging Face Spaces, follow these steps:
-
-Create a new Space on Hugging Face Spaces.
-
-Select Gradio as the framework.
-
-Upload all necessary project files:
-
-app.py
-
-requirements.txt
-
-Model files
-
-Start the Space, and your Employability Predictor is live!
+1.Create a new Space on Hugging Face Spaces.
+2.Select Gradio as the framework.
+3.Upload all necessary project files:
+   app.py
+   requirements.txt
+   Model files
+4.Start the Space, and your Employability Predictor is live!
 
 Requirements
-
 Ensure you have the following dependencies installed before running the project:
-
 pip install -r requirements.txt
 
 Running the Project Locally
-
 To run the project locally, execute:
-
 python app.py
-
 This will launch the Gradio interface in your browser.
 
 Contributing
-
 Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
 
 License
-
 This project is open-source and available under the MIT License.
 
 Developed with ❤️ for employability assessment.
